@@ -1,10 +1,10 @@
-# import streamlit as st
+import streamlit as st
 
-# st.title("⚙️ Setting")
+st.title("⚙️ Setting")
 
-# theme = st.selectbox("选择主题", ["Light", "Dark"])
-# mode = st.radio("运行模式", ["Debug", "Production"])
+theme = st.selectbox("选择主题", ["Light", "Dark"])
+mode = st.radio("运行模式", ["Debug", "Production"])
 
-# st.write("当前设置：")
-# st.write("Theme:", theme)
-# st.write("Mode:", mode)
+st.write("当前设置：")
+st.write("Theme:", theme)
+st.write("Mode:", mode)
