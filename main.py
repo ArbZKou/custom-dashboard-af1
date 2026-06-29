@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import time
 
-st.set_page_config(page_title="Realtime Dashboard", layout="wide")
+st.set_page_config(page_title="Axis Freq - Live Monitor", layout="wide")
 
 st.title("📡 Axis Freq - Live Monitor")
 
