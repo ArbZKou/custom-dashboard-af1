@@ -34,9 +34,9 @@ InitialStringPot_mm = 150
 # 一行两列
 col1, col2, col3 = st.columns(3)
 with col1:
-    st.metric(label="InitialCarWeight_kg", value=InitialCarWeight_kg)
+    st.metric(label="InitialCarWeight (kg)", value=InitialCarWeight_kg)
 with col2:
-    st.metric(label="InitialStringPot_mm", value=InitialStringPot_mm)
+    st.metric(label="InitialStringPot (mm)", value=InitialStringPot_mm)
 with col3:
         st.button(
             "Lock Initial Value",
@@ -107,7 +107,7 @@ InitialStringPot_Tension_mm = 150
 # 一行两列
 col1, col2 = st.columns(2)
 with col1:
-    st.metric(label="InitialStringPot_Tension_mm", value=InitialStringPot_Tension_mm)
+    st.metric(label="InitialStringPot (mm)", value=InitialStringPot_Tension_mm)
 with col2:
         st.button(
             "Lock Initial Value - Tension",
